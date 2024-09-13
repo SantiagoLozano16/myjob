@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #bef8ac;
+
+}
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.login-container h3 {
+    color: #0a0a09;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #7AB730;
+    border-color: #7AB730;
+}
+.btn-primary:hover {
+    background-color: #042c0e;
+    border-color: #042c0e;
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #7AB730;
+    color: #fff;
+}
+.form-control::placeholder {
+    color: #fff;
+}
+.card-body {
+    padding: 20px;
+}
+.forgot-password {
+    color: #7AB730;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    color: #7AB730;
+}
+
